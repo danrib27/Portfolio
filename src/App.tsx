@@ -1,5 +1,4 @@
 import './App.css'
-import './fredoca.jpg'
 function App() {
 
   return (

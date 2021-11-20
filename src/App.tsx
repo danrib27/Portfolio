@@ -1,9 +1,9 @@
 import './App.css'
-
+import './fredoca.jpg'
 function App() {
 
   return (
-    <h1>Hello World</h1>
+    <h1>Tá olhando o que?</h1>
   )
 }
 

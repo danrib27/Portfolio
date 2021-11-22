@@ -1,10 +1,15 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background: #0b0419;
+    background: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 
     display: flex;
     height: 100vh;
@@ -12,43 +17,66 @@ body {
     align-items: center;
 }
 
-.content {
-    background: #15152a;
-    color: #d5d5d5;
-
+.main {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 750px;
-    border-radius: 15px;
-    
-    h1 {
-        margin: 10px 0;
-    }
-    .contact {
+    background: rgba( 11, 4, 25, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 41, 22, 62, 0.8 );
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+    .content {
+        color: #c5c1cf;
+
         display: flex;
         flex-direction: column;
-        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        min-width: 450px;
+        border-radius: 15px;
         
-        .deviceContact {
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            gap: 6px;
-            img {
-                width: 20px;
-                height: 20px;
+        p.message {
+            margin: 10px 0;
+            font-size: 30px;
+            color: transparent;
+            background: linear-gradient(100deg, #d11a53 0.48%, #6540a2 100%);
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+        .contact {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10px;
+            
+            .deviceContact {
+                display: inline-flex;
+                justify-content: center;
+                align-items: center;
+                gap: 6px;
+
+                img {
+                    width: 20px;
+                    height: 20px;
+                }
+
+                img.signal_icon {
+                    border-radius: 4px;
+                }
             }
-            img.signal_icon {
-                border-radius: 4px;
+            p.phone {
+                margin-left: 5px;
+            }
+            p.email {
+                margin: 5px 0;
             }
         }
-        p.phone {
-            margin-left: 5px;
-        }
-        p.email {
-            margin: 5px 0;
+    }
+
+    aside {
+        img {
+            max-height: 400px;
+
         }
     }
 }

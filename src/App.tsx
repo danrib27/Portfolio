@@ -1,7 +1,7 @@
 import whatsIcon from './images/whats_icon.png';
 import telegramIcon from './images/telegram_icon.png';
 import signalIcon from './images/signal_icon.png';
-import styles from './styles/global.module.scss'
+import styles from './styles/global.module.scss';
 
 export function App() {
   return (

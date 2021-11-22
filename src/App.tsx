@@ -1,9 +1,7 @@
-import './App.css'
-function App() {
+import './styles/global.module.scss';
 
+export function App() {
   return (
-    <h1>Tá olhando o que?</h1>
+    <h1>Hello World</h1>
   )
 }
-
-export default App

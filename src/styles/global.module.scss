@@ -6,4 +6,32 @@
 
 body {
     background: #0b0419;
+    color: #c5c1cf;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainContent {
+    margin-top: 15vh;
+    max-width: 1000px;
+
+    .presentation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        height: 100vh;
+
+        .welcome span {
+            color: #6540a2;
+        }
+
+        img {
+            height: 400px;
+        }
+    }
 }

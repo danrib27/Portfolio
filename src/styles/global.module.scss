@@ -25,6 +25,10 @@ body {
 
         height: 100vh;
 
+        border-bottom: 1px solid;
+        border-image: radial-gradient(circle,#41356b 55%,#0b0419 100%);
+        border-image-slice: 1;
+
         .profile {
             height: 200px;
             opacity: 0;
@@ -33,10 +37,6 @@ body {
         .welcome span {
             color: #6540a2;
         }
-    }
-    .separator {
-        background: radial-gradient(circle,#41356b 55%,#0b0419 100%);
-        height: 1px;
     }
 
     .info {

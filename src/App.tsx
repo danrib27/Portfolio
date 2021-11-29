@@ -1,18 +1,16 @@
 import styles from './styles/global.module.scss';
-import profile from './assets/teste_profile.png'
-import rocket from './assets/rocket_redimentation_400h.png';
+import rocket from './assets/rocket.png';
+import { CardProjects } from './components/CardProjects';
 
 export function App() {
   return (
     <main className={styles.mainContent}>
       <div className={styles.presentation}>
-        <img className={styles.profile} src={profile} />
         <h1 className={styles.welcome}><span>I'm</span> Daniel Duarte</h1>
         <img src={rocket} />
       </div>
-      <div className={styles.separator}></div>
-      <div className={styles.info}>
-        <h1>Hello World</h1>
+      <div className={styles.projects}>
+        <CardProjects />
       </div>
     </main>
   )

@@ -17,6 +17,7 @@ body {
 
 .mainContent {
     width: 1000px;
+
     .presentation {
         display: flex;
         justify-content: flex-end;
@@ -39,7 +40,48 @@ body {
         }
     }
 
-    .info {
-        height: 500px;
+    .infoContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .about {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            
+            h2 {
+                margin-top: 40px;
+            }
+            
+            p {
+                font-size: 15px;
+                max-width: 800px;
+                text-align: justify;
+                margin: 15px 0;
+
+                b {
+                    color: #6540a2;
+                }
+            }
+        }
+        .personalSkills {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .bannerSkillConteiner {
+                display: grid;
+                width: 1000px;
+                justify-content: center;
+                align-content: center;
+                justify-items: center;
+
+                grid-template-columns: repeat(3, 300px);
+                grid-template-rows: repeat(2, 250px)
+            }
+        }
     }
 }

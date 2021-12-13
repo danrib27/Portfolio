@@ -1,9 +1,15 @@
 import style from './style.module.scss';
 
-export function BannerSkill() {
+type Banner = {
+    src: string;
+    text: string;
+}
+
+export function BannerSkill({src, text}: Banner) {
     return(
         <div className={style.banner}>
-            <h1>Teste</h1>
+            <img src={ src }/>
+            <p>{ text }</p>
         </div>
     );
 }

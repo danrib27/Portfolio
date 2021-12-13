@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
+    --bg: #0B0419;
+    --color2: #1F1D36;
+    --color3: #6540A2;
+    --font: #C5C1CF;
 }
 
 body {
@@ -72,6 +77,10 @@ body {
             align-items: center;
             flex-direction: column;
 
+            h3 {
+                margin-bottom: 15px;
+            }
+
             .bannerSkillConteiner {
                 display: grid;
                 width: 1000px;
@@ -80,7 +89,20 @@ body {
                 justify-items: center;
 
                 grid-template-columns: repeat(3, 300px);
-                grid-template-rows: repeat(2, 250px)
+                grid-template-rows: repeat(2, 180px);
+            }
+        }
+
+        .techSkillsContainer {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            height: 500px;
+            background: #1F1D36;
+
+            h2 {
+                margin-top: 40px;
             }
         }
     }

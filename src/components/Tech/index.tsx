@@ -1,9 +1,13 @@
 import styles from './style.module.scss';
 
-export function Tech() {
+type Tech = {
+    src: string;
+    bg: string;
+}
+export function Tech({src, bg}: Tech) {
     return(
-        <div className={styles.TechContainer}>
-
+        <div className={styles.Shape} style={{background: `${bg}`}}>
+            <img src={ src }/>
         </div>
     );
 }

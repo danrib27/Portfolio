@@ -6,7 +6,8 @@
 
     --bg: #0B0419;
     --color2: #1F1D36;
-    --color3: #6540A2;
+    --color3:#100625;
+    --color4: #6540A2;
     --font: #C5C1CF;
 }
 
@@ -100,9 +101,19 @@ body {
             width: 100%;
             height: 500px;
             background: #1F1D36;
+            border-radius: 10px;
+            box-shadow: 0 10px 8px 0 rgba(0,0,0,0.3);
 
             h2 {
                 margin-top: 40px;
+            }
+
+            .techSkills {
+                width: 250px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                
             }
         }
     }

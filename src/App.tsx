@@ -1,7 +1,7 @@
 import styles from './styles/global.module.scss';
 import rocket from './assets/rocket.png';
 import { BannerSkill } from './components/BannerSkill';
-import { Tech } from './components/Tech';
+import { Tech } from './components/Tech'; 
 
 export function App() {
   return (
@@ -30,11 +30,10 @@ export function App() {
           <div className={styles.techSkillsContainer}>
             <h2>SKILLS</h2>
             <div className={styles.techSkills}>
-              <Tech src="src/assets/react_icon.png" bg="#20232a" />
-              <Tech src="src/assets/react_icon.png" bg="#20232a" />
-              <Tech src="src/assets/react_icon.png" bg="#20232a" />
-              <Tech src="src/assets/react_icon.png" bg="#20232a" />
-              <Tech src="src/assets/react_icon.png" bg="#20232a" />
+              <Tech src="src/assets/tech-icons/react.png" bg="97,218,251" progr={60} />
+              <Tech src="src/assets/tech-icons/typescript.png" bg="49,120,198" progr={70} />
+              <Tech src="src/assets/tech-icons/js.png" bg="255,223,0" progr={60} />
+              <Tech src="src/assets/tech-icons/node-js.png" bg="85,164,69" progr={60} />
             </div>
           </div>
         </div>

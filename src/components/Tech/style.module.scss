@@ -1,9 +1,35 @@
 .Shape {
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    width: 70px;
-    height: 70px;
-    margin: -8px 0;
-    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    margin: 10px;
+
+    .Container {
+        background: #0b0419;
+        width: 160px;
+        height: 200px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+        span {
+            width: 50px;
+            height: 26px;
+            border-radius: 20px;
+            line-height: 26px;
+            text-align: center;
+            
+            background: #190B34;
+        }
+
+        .ProgressBar {
+            width: 80%;
+            height: 12px;
+            border: solid 1px gray;
+            border-radius: 3px;
+
+            .Bar {
+                height:100%;
+            }
+        }
+    }
 }

@@ -1,0 +1,16 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+
+    img {
+        margin: 10px 0 ;
+    }
+    p {
+        font-size: 13px;
+        text-align: center;
+        margin: 3px 0;
+    }
+}

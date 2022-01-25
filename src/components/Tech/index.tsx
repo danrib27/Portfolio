@@ -19,10 +19,11 @@ export function Tech({src, bg, progr}: Tech) {
         <div className={styles.Shape}>
             <div className={styles.Container} style={css.container}>
                 <img src={ src }/>
-                <span className={styles.percentage}>{progr}%</span>
                 <div className={styles.ProgressBar}>
                     <div className={styles.Bar} style={css.bar}></div>
                 </div>
+            </div>
+            <div>
             </div>
         </div>
     );

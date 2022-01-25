@@ -3,8 +3,6 @@
 
     .Container {
         background: #0b0419;
-        width: 160px;
-        height: 200px;
 
         display: flex;
         flex-direction: column;
@@ -20,8 +18,12 @@
             
             background: #190B34;
         }
+        img {
+            margin: 25px 35px;
+        }
 
         .ProgressBar {
+            margin: 20px 30px;
             width: 80%;
             height: 12px;
             border: solid 1px gray;

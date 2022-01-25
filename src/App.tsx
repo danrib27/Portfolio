@@ -1,11 +1,12 @@
 import styles from './styles/global.module.scss';
 import rocket from './assets/rocket.png';
 import { BannerSkill } from './components/BannerSkill';
-import { Tech } from './components/Tech'; 
+import { Tech } from './components/Tech';
+import { Contact } from './components/Contact';
 
 export function App() {
   return (
-    <div>
+    <div className={styles.Root}>
       <main className={styles.mainContent}>
         <div className={styles.presentation}>
           <h1 className={styles.welcome}><span>I'm</span> Daniel Duarte</h1>
@@ -34,6 +35,24 @@ export function App() {
               <Tech src="src/assets/tech-icons/typescript.png" bg="49,120,198" progr={60} />
               <Tech src="src/assets/tech-icons/js.png" bg="255,223,0" progr={72} />
               <Tech src="src/assets/tech-icons/node-js.png" bg="85,164,69" progr={30} />
+            </div>
+            <div className={styles.techsGrey}>
+              <img src="src/assets/tech-icons-grey/docker.png"/>
+              <img src="src/assets/tech-icons-grey/python.png"/>
+              <img src="src/assets/tech-icons-grey/prisma.png"/>
+              <img src="src/assets/tech-icons-grey/php.png"/>
+              <img src="src/assets/tech-icons-grey/git.png"/>
+              <img src="src/assets/tech-icons-grey/mysql.png"/>
+              <img src="src/assets/tech-icons-grey/sass.png"/>
+              <img src="src/assets/tech-icons-grey/vscode.png"/>
+            </div>
+          </div>
+          <div className={styles.Contact}>
+            <h2>CONTACT</h2>
+            <div className={styles.ContactContainer}>
+              <Contact src="src/assets/location.png" name="ADDRESS" text="Belém, Pará, BR"/>
+              <Contact src="src/assets/smartphone.png" name="PHONE NUMBER" text="+55 (91) 98518-8080"/>
+              <Contact src="src/assets/email.png" name="E-MAIL" text="danielduarte.dev@protonmail.com"/>
             </div>
           </div>
         </div>

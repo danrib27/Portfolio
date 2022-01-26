@@ -6,7 +6,7 @@ import { Contact } from './components/Contact';
 
 export function App() {
   return (
-    <div className={styles.Root}>
+    <div>
       <main className={styles.mainContent}>
         <div className={styles.presentation}>
           <h1 className={styles.welcome}><span>I'm</span> Daniel Duarte</h1>

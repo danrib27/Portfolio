@@ -1,8 +1,11 @@
 import styles from './styles/global.module.scss';
-import rocket from './assets/rocket.png';
+//Components
 import { BannerSkill } from './components/BannerSkill';
 import { Tech } from './components/Tech';
 import { Contact } from './components/Contact';
+// Images
+import icon from './assets/icon.png';
+import rocket from './assets/rocket.png';
 
 export function App() {
   return (
@@ -10,7 +13,7 @@ export function App() {
       <main className={styles.mainContent}>
         <div className={styles.presentation}>
           <div className={styles.person}>
-          <img className={styles.personIcon} src="./assets/icon.png" />
+          <img className={styles.personIcon} src={icon} />
           <h1>Daniel Duarte</h1>
           <h3 className={styles.welcome}>Developer</h3>
           <div className={styles.social}>

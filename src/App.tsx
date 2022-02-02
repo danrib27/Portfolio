@@ -77,7 +77,7 @@ export function App() {
             <div className={styles.techSkills}>
               <Tech src={reactIcon} bg="97,218,251" progr={45} />
               <Tech src={tsIcon} bg="49,120,198" progr={60} />
-              <Tech src={htmlIcon} bg="228,79,38" progr={88} />
+              <Tech src={htmlIcon} bg="228,79,38" progr={80} />
               <Tech src={cssIcon} bg="21,114,182" progr={72} />
               <Tech src={jsIcon} bg="255,223,0" progr={66} />
               <Tech src={nodeIcon} bg="85,164,69" progr={30} />

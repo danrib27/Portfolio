@@ -10,7 +10,7 @@ export function App() {
       <main className={styles.mainContent}>
         <div className={styles.presentation}>
           <div className={styles.person}>
-          <img className={styles.personIcon} src="src/assets/icon.png" />
+          <img className={styles.personIcon} src="./assets/icon.png" />
           <h1>Daniel Duarte</h1>
           <h3 className={styles.welcome}>Developer</h3>
           <div className={styles.social}>

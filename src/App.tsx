@@ -98,7 +98,7 @@ export function App() {
             <div className={styles.ContactContainer}>
               <Contact src={addressIcon} name="ADDRESS" text="Belém, Pará, BR"/>
               <Contact src={phoneIcon} name="PHONE NUMBER" text="+55 (91) 98518-8080"/>
-              <Contact src={emailIcon} name="E-MAIL" text="danielduarte.dev@protonmail.com"/>
+              <Contact src={emailIcon} name="E-MAIL" text="danielduarte.tech@protonmail.com"/>
             </div>
           </div>
         </div>

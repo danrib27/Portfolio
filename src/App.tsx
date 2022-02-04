@@ -1,5 +1,5 @@
 import styles from './styles/global.module.scss';
-//Components
+// Components
 import { BannerSkill } from './components/BannerSkill';
 import { Tech } from './components/Tech';
 import { Contact } from './components/Contact';

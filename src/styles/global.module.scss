@@ -1,25 +1,10 @@
-$bg: #0B0419;
-$color2: #1F1D36;
-$color3:#100625;
-$color4: #6540A2;
-$font: #C5C1CF;
-
-@mixin flex_direction() {
-    display: flex;
-    flex-direction: column;
-}
-
-@mixin flex_align {
-    @include flex_direction();
-    align-items: center;
-}
+@import 'styles';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-
 }
 
 body {
@@ -114,6 +99,7 @@ body {
     .Contact {
         @include flex_align();
         height: 280px;
+        
         h2 {
             margin: 30px;
         }

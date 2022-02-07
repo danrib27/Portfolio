@@ -1,20 +1,20 @@
+@import '../../styles/styles';
+
 .Shape {
     margin: 10px;
 
     .Container {
-        background: #0b0419;
+        background: $bg;
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        @include flex_align();
         justify-content: space-around;
 
         span {
             width: 50px;
             height: 26px;
-            border-radius: 20px;
             line-height: 26px;
             text-align: center;
+            border-radius: 20px;
             
             background: #190B34;
         }

@@ -6,14 +6,12 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
 body {
     @include flex_direction();
 
     background: $bg;
     color: $font;
 }
-
 .mainContent {
     width: 100%;
 
